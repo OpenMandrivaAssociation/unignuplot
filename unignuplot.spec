@@ -1,6 +1,6 @@
 %define name unignuplot
 %define version 2.0
-%define release %mkrel 6
+%define release %mkrel 7
 %define subversion D
 
 Summary:	Simplify the command line interface with GNUPlot
