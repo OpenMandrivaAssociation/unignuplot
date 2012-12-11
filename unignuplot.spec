@@ -49,3 +49,37 @@ perl -pi -e "s|lang/lang_|/usr/share/unignuplot/lang/lang_|g" $RPM_BUILD_ROOT%{_
 %{_bindir}/%{name}-%{version}.0%{subversion}.tcl
 %{_datadir}/%{name}/lang/*
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.0-8mdv2010.0
++ Revision: 434544
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.0-7mdv2009.0
++ Revision: 261773
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.0-6mdv2009.0
++ Revision: 255148
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 2.0-4mdv2008.1
++ Revision: 128755
+- kill re-definition of %%buildroot on Pixel's request
+- import unignuplot
+
+
+* Mon Dec 19 2005 Erwan Velu <erwan@seanodes.com> 2.0-4mdk
+- D release
+
+* Fri Feb 14 2004 Erwan Velu <erwan@mandrakesoft.com> 2.0-3mdk
+- Rebuild
+* Sat Jan 11 2003 Lenny Cartier <lenny@mandrakesoft.com> 2.0-2mdk
+- wrap too long lines in description & summary
+
+* Wed Dec 17 2002 Erwan Velu <erwan@mandrakesoft.com> 2.0-1mdk
+- First MDK release
