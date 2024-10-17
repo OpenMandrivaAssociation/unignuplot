@@ -11,7 +11,7 @@ Group:		System/Libraries
 License:	GPL
 Source:		%{name}-%{version}.0%{subversion}.tar.bz2
 
-URL:		http://www.fltk.org
+URL:		https://www.fltk.org
 BuildRoot:	%_tmppath/%name-%version-%release-root
 Requires:	tk, gnuplot
 BuildArch:	noarch
